@@ -1,0 +1,150 @@
+.home {
+  /* position: relative; */
+}
+
+.homeImg {
+  opacity: 0.4px;
+}
+
+.homeImg > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.homeText {
+  width: 751px;
+  /* height: 442px; */
+  top: 138px;
+  left: 713px;
+}
+
+.homeText > p {
+  font-weight: 600;
+  position: absolute;
+  width: 508px;
+  height: 183px;
+  line-height: 55.54px;
+  top: 138px;
+  left: 716px;
+  font-size: 46px;
+  color: #ffffff;
+}
+
+.homeText > div {
+  position: absolute;
+  border-radius: 1.25rem;
+  padding: 20px;
+  opacity: 0.3;
+  background: #000;
+  width: 571px;
+  height: 224px;
+  top: 356px;
+  left: 713px;
+}
+
+.hometextCon {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.hometextCon svg {
+  width: 16.5px;
+  height: 20.5px;
+  flex-shrink: 0;
+}
+
+.homeTextInner {
+  position: absolute;
+  z-index: 3;
+  top: 386px;
+  left: 743px;
+}
+
+.homeTextInner p {
+  color: #ffffff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%;
+}
+
+.homeImgs {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .homeText {
+    width: 195px;
+    /* height: 57px; */
+    top: 138px;
+    left: 113px;
+  }
+
+  .homeText > p {
+    top: 28px;
+    left: 163px;
+    width: 195px;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .homeText > div {
+    width: 177.91px;
+    height: 69.79px;
+    border: 1px solid red;
+    top: 118.93px;
+    left: 163px;
+    border-radius: 6.23px;
+  }
+
+  .homeImgs {
+    display: block;
+    background: var(#538dd7);
+  }
+
+  .homeTextInner {
+    position: absolute;
+    top: 122.93px;
+    left: 173px;
+  }
+
+  .homeTextInner p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .hometextCon {
+    gap: 5px;
+  }
+
+  .hometextCon > div {
+    width: 38px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hometextCon span {
+    display: flex;
+    align-items: center;
+  }
+
+  .homeImgBig {
+    display: none;
+  }
+
+  .hometextCon svg {
+    width: 6.39px;
+    height: 6.39px;
+  }
+
+  .hometextCon > div > img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

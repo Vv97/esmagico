@@ -1,0 +1,62 @@
+.ellipsesvg > svg {
+  position: absolute;
+}
+
+.ellipsesvg > svg:nth-child(1) {
+  z-index: 2;
+  top: 1120.84px;
+  left: 955px;
+  fill: #538dd7;
+  opacity: 0.1;
+}
+
+.ellipsesvg > svg:nth-child(2) {
+  z-index: 3;
+  top: 1120px;
+  left: 963px;
+  opacity: 0.1;
+  fill: #538dd7;
+}
+
+.ellipsesvg > img {
+  position: absolute;
+  top: 1220.84px;
+  z-index: 1;
+  width: 360px;
+  height: 319px;
+  left: 988px;
+}
+
+@media screen and (max-width: 480px) {
+  .ellipsesvg > svg:nth-child(1) {
+    z-index: 2;
+    top: 100px;
+    left: 220px;
+    fill: #538dd7;
+    width: 80px;
+    transform: rotate(-260deg);
+    opacity: 0.1;
+    height: 80px;
+  }
+
+  .ellipsesvg > svg:nth-child(2) {
+    z-index: 3;
+    top: 100px;
+    left: 220px;
+    opacity: 0.1;
+    height: 80px;
+    width: 80px;
+    transform: rotate(-120deg);
+    fill: #538dd7;
+  }
+
+  .ellipsesvg > img {
+    position: absolute;
+    top: 320px;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    left: 220px;
+  }
+}

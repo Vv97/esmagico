@@ -1,0 +1,70 @@
+.trendingSpeaker {
+  position: absolute;
+  width: 1168.23px;
+  height: 345px;
+  top: 5047px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.trendingSpeaker > h1 {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 38px;
+  line-height: 148%; /* 47.36px */
+}
+
+.trendingSpeaker > div {
+  display: flex;
+  gap: 25px;
+}
+
+.trendingSpeaker > div > div {
+  width: 220.645px;
+  height: 255.79px;
+  border-radius: 11.981px;
+  background: #fff;
+  mix-blend-mode: color;
+  box-shadow: 0px 3.59424px 11.38177px 0px rgba(0, 0, 0, 0.19);
+}
+
+.trendingSpeaker > div > div img {
+  width: 100%;
+  display: block;
+}
+
+.trendingSpeaker > div p {
+  background-color: #538dd7;
+  padding: 20px 12px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .trendingSpeaker {
+    top: 3310px;
+  }
+
+  .trendingSpeaker {
+    width: 375px;
+    overflow: hidden;
+  }
+
+  .trendingSpeaker > div {
+    justify-content: space-around;
+  }
+
+  .trendingSpeaker > div > div {
+    width: 142.633px;
+    height: 164.606px;
+  }
+
+  .trendingSpeaker > div > div:nth-child(4),
+  .trendingSpeaker > div > div:nth-child(5),
+  .trendingSpeaker > div > div:nth-child(3) {
+    display: none;
+  }
+}

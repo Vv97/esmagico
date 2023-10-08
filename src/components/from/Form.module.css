@@ -1,0 +1,133 @@
+.formInside {
+  width: 533px;
+  height: 885px;
+  border: 1px dashed #aeb7c3;
+  position: absolute;
+  z-index: 4;
+  background: #ffff;
+  top: 85px;
+  left: 98px;
+  padding: 20px;
+}
+
+.formInsideHeader {
+  text-align: center;
+}
+
+.formInsideHeader > p {
+  color: #2a2727;
+  font-family: Poppins;
+  font-size: 2.1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 148%; /* 38.48px */
+}
+
+.formInsideHeader > span {
+  color: #a0a0a0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 148%; /* 20.72px */
+}
+
+.formInside > form {
+  padding: 18px;
+}
+
+.formInside > form label {
+  color: #172b4d;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.formInside > form input {
+  border-radius: 3px;
+  border: 1px solid #d4d6de;
+  outline: none;
+  height: 37px;
+}
+
+.formInside > form .formInsideLabel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  gap: 10px;
+}
+
+.formInside > form label::after {
+  content: "*";
+  color: #ff5e5e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.formCheckbox {
+  margin-top: 15px;
+}
+
+.formCheckbox > div {
+  display: grid;
+  margin-top: 18px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.formCheckbox > p {
+  color: #2a2727;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 148%;
+}
+
+.formCheckbox > div > div {
+  border-radius: 50px;
+  border: 1px solid #aeb7c3;
+  width: 193px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.formCheckbox > div > div > svg {
+  width: 10.005px;
+  height: 7.561px;
+  fill: #ccc;
+  margin: 0 8px 0 0;
+}
+
+.formCheckbox > div > div > span {
+  color: #2a2727;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 148%; /* 20.72px */
+}
+
+.formInside > form > input[type="submit"] {
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 48.681px;
+  background: #538dd7;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  width: 424px;
+  height: 53px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.625%; /* 19.688px */
+  text-transform: uppercase;
+  cursor: pointer;
+}

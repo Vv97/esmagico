@@ -1,0 +1,43 @@
+.growindia {
+  position: absolute;
+  top: 1143px;
+  right: 0;
+  border: 1px solid green;
+}
+
+.growindia > p {
+  position: absolute;
+  width: 423px;
+  height: 204px;
+  /* top: 1143px; */
+  top: 0;
+  /* left: 783px; */
+}
+
+.growText {
+  position: absolute;
+  width: 423px;
+  height: 204px;
+  top: 1113px;
+  left: 703px;
+  z-index: 999;
+  color: #000;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+  .growText {
+    left: 40px;
+    width: 140px;
+    top: 320px;
+    height: 61px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 148%;
+  }
+}

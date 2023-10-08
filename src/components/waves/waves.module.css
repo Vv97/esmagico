@@ -1,0 +1,80 @@
+.homeWaves {
+  position: absolute;
+  top: 548px;
+  width: 100%;
+}
+
+.homeWaves > svg:nth-child(1) {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  fill: var(#538dd7, #538dd7);
+  opacity: 0.8;
+}
+
+.homeWaves > svg:nth-child(2) {
+  position: absolute;
+  z-index: 3;
+  top: 20px;
+}
+
+.homeWaves > svg:nth-child(3) {
+  position: absolute;
+  z-index: 1;
+  top: 45px;
+}
+
+.Mwaves {
+  display: none;
+}
+
+.wavesForm {
+  position: absolute;
+  z-index: 4;
+  width: 533px;
+  height: 885px;
+  top: 95px;
+}
+
+.wavesForm > svg:nth-child(2) {
+  /* border: 1px solid red; */
+  position: absolute;
+  /* width: 39.551px;
+  height: 71.457px; */
+  transform: rotate(-5.742deg);
+  top: 38px;
+  left: 603px;
+  z-index: 5;
+}
+
+@media screen and (max-width: 480px) {
+  .homeWaves {
+    display: none;
+  }
+
+  .mwaves {
+    display: block;
+    position: absolute;
+    top: 210px;
+    /* overflow: hidden; */
+  }
+
+  .mwaves > svg {
+    position: absolute;
+  }
+
+  .mwaves > svg:nth-child(1) {
+    top: 0;
+    z-index: 3;
+  }
+
+  .mwaves > svg:nth-child(2) {
+    top: 18px;
+    z-index: 2;
+  }
+
+  .mwaves > svg:nth-child(3) {
+    top: 25px;
+    z-index: 1;
+  }
+}

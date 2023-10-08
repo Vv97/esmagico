@@ -1,0 +1,23 @@
+.navbar {
+  background: linear-gradient(180deg, #081026 0%, rgba(7, 15, 35, 0) 100%);
+  height: 80px;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.navbar > div {
+  width: 99px;
+  position: absolute;
+  cursor: pointer;
+  height: 28px;
+  top: 19px;
+  left: 130px;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    display: none;
+  }
+}

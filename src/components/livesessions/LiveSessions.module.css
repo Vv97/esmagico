@@ -1,0 +1,130 @@
+.liveSessions {
+  position: absolute;
+  width: 863px;
+  height: 457.26px;
+  top: 3068px;
+  left: 281px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.liveSessions > h1 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 65%; /* 23.4px */
+}
+
+.liveSessions > h1 > span {
+  background: var(--Grade2, linear-gradient(180deg, #316bbf 0%, #7a5cd0 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 65%;
+}
+
+.liveSessions > div {
+  display: flex;
+  gap: 85px;
+  margin-top: 100px;
+}
+
+.liveSessions > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+  width: 182px;
+  height: 239px;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 24px 0px rgba(40, 104, 200, 0.24);
+}
+
+.liveSessions > div > div > div {
+  width: 60px;
+  height: 82.286px;
+  margin-bottom: 8px;
+}
+
+.liveSessions > div > div > p {
+  width: 164px;
+  color: #2a2727;
+  text-align: center;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 148%; /* 23.68px */
+}
+
+@media screen and (max-width: 480px) {
+  .liveSessions {
+    height: auto;
+    top: 1828px;
+  }
+
+  .liveSessions > h1 {
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 45px;
+    font-weight: 500;
+    line-height: 65%;
+  }
+
+  .liveSessions > h1 > span {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 65%;
+  }
+
+  .liveSessions {
+    width: 324.438px;
+    /* height: 447.275px; */
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .liveSessions > div {
+    display: grid;
+    margin: 0;
+    gap: 28px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .liveSessions > div > div {
+    width: 143.829px;
+    height: 163.874px;
+    gap: 10px;
+  }
+  .liveSessions > div > div > div > svg {
+    width: 47.416px;
+    height: 65.028px;
+    margin-bottom: 8px;
+  }
+
+  .liveSessions > div > div > p {
+    font-size: 12px;
+    font-style: normal;
+    width: 114.589px;
+    height: 56.899px;
+    font-weight: 500;
+    line-height: 148%;
+  }
+}
