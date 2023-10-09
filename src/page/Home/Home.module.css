@@ -1,5 +1,6 @@
 .home {
   /* position: relative; */
+  font-family: Poppins;
 }
 
 .homeImg {
@@ -29,6 +30,38 @@
   left: 716px;
   font-size: 42px;
   color: #ffffff;
+}
+
+.homeTextInnerButton {
+  width: 322px;
+  margin-top: 29px;
+  height: 50px;
+  border-radius: 57px;
+  background: #ffde00;
+  position: absolute;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.625%; /* 25.313px */
+  text-transform: uppercase;
+  padding: 13px 20px 12px 21px;
+}
+
+.homeTextInnerButton > button {
+  width: 281px;
+  background-color: inherit;
+  outline: none;
+  border: none;
+  color: #2a2727;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.625%; /* 25.313px */
+  text-transform: uppercase;
 }
 
 .homeText > div {
@@ -122,6 +155,42 @@
 
   .hometextCon {
     gap: 5px;
+  }
+
+  .homeTextInnerButton {
+    position: absolute;
+    top: 40px;
+    width: 100.33px;
+    height: 15.579px;
+    margin: 0;
+    border-radius: 17.76px;
+    padding: 0;
+  }
+
+  .homeTextInnerButton > button {
+    width: 87.555px;
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 7.79px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.625%; /* 8.438px */
+    text-transform: uppercase;
+  }
+
+  .homeTextInnerButton1 {
+    position: absolute;
+    top: 25px;
+    width: 100.33px;
+    height: 15.579px;
+    margin: 12px;
+    border-radius: 17.76px;
+    padding: 0;
   }
 
   .hometextCon > div {

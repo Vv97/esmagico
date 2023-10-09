@@ -17,10 +17,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 366px;
 }
 
-.aboutSpeking > div > div:nth-child(1) > img {
-  width: 40%;
+.aboutSpeking > div > div:nth-child(1) > img:nth-child(1) {
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+  width: 402px;
+  height: 366px;
+}
+
+.aboutSpeking > div > div:nth-child(1) > img:nth-child(2) {
+  position: absolute;
+  width: 402px;
+  z-index: 1;
+  height: 366px;
 }
 
 .aboutSpeking > div > div:nth-child(2) > h1 {
@@ -56,6 +68,21 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 148%;
+  }
+
+  .aboutSpeking > div > div:nth-child(1) > img:nth-child(1) {
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    width: 320px;
+    height: 216px;
+  }
+
+  .aboutSpeking > div > div:nth-child(1) > img:nth-child(2) {
+    position: absolute;
+    width: 320px;
+    height: 216px;
+    z-index: 1;
   }
 
   .aboutSpeking > div > div:nth-child(2) > p {

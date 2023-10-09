@@ -112,11 +112,13 @@
     width: 143.829px;
     height: 163.874px;
     gap: 10px;
+    margin-bottom: 0;
   }
   .liveSessions > div > div > div > svg {
     width: 47.416px;
     height: 65.028px;
-    margin-bottom: 8px;
+    margin-top: 5px;
+    margin-left: 8px;
   }
 
   .liveSessions > div > div > p {

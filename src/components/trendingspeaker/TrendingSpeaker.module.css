@@ -1,8 +1,8 @@
 .trendingSpeaker {
   position: absolute;
-  width: 1168.23px;
+  width: 1150.23px;
   height: 345px;
-  top: 5047px;
+  top: 5000px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -22,7 +22,7 @@
   gap: 25px;
 }
 
-.trendingSpeaker > div > div {
+.trendingSpeakerImg {
   width: 220.645px;
   height: 255.79px;
   border-radius: 11.981px;
@@ -31,21 +31,49 @@
   box-shadow: 0px 3.59424px 11.38177px 0px rgba(0, 0, 0, 0.19);
 }
 
-.trendingSpeaker > div > div img {
+.trendingSpeakerImg img {
   width: 100%;
   display: block;
+  border-top-left-radius: 11.981px;
+  border-top-right-radius: 11.981px;
+  object-fit: covers;
+  background: #fff;
+  filter: grayscale(100%);
+  box-shadow: 0px 3.59424px 11.38177px 0px rgba(0, 0, 0, 0.19);
 }
 
-.trendingSpeaker > div p {
+.TrendingSpeakerText {
+  display: flex;
+  flex-direction: column;
   background-color: #538dd7;
-  padding: 20px 12px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 221.645px;
+  height: 59px;
   color: #fff;
+  border-bottom-left-radius: 11.981px;
+  border-bottom-right-radius: 11.981px;
+}
+
+.TrendingSpeakerText > p {
   text-align: center;
   font-family: Poppins;
   font-size: 10.783px;
   font-style: normal;
   font-weight: 600;
   line-height: 130.4%;
+}
+
+.TrendingSpeakerText > span {
+  display: block;
+  width: 161.741px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 8.387px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.4%;
 }
 
 @media screen and (max-width: 480px) {
@@ -65,6 +93,35 @@
   .trendingSpeaker > div > div {
     width: 142.633px;
     height: 164.606px;
+    /* border: 1px solid red; */
+  }
+
+  .trendingSpeakerImg {
+    width: 142.633px;
+    height: auto;
+  }
+
+  .trendingSpeakerImg > img {
+    /* border: 1px solid red; */
+    width: 142.633px;
+    /* width: 100%; */
+  }
+
+  .TrendingSpeakerText {
+    width: 142.633px;
+  }
+
+  .TrendingSpeakerText > p {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .TrendingSpeakerText > span {
+    font-size: 6px;
+    width: 124px;
+    margin-top: 5px;
+    font-weight: 400;
+    line-height: 133.4%;
   }
 
   .trendingSpeaker > div > div:nth-child(4),

@@ -86,9 +86,13 @@
     transform: translateX(-50%);
   }
 
+  .sessionCardChild > div {
+    gap: 20px;
+  }
+
   .sessionCard > h1 {
     position: absolute;
-    top: -12px;
+    top: 5px;
     width: 225.117px;
     margin-left: 68px;
     height: 50.355px;
@@ -99,9 +103,9 @@
   }
 
   .sessionCard > div > div:nth-child(2) {
-    top: 460px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: absolute;
+    top: 400px;
+    left: 50px;
   }
 
   .sessionCard > div > div:nth-child(1) {
@@ -113,14 +117,18 @@
 
   .sessionCard > div > div:nth-child(1) > img {
     position: absolute;
-    top: 215px;
+    top: 145px;
     left: 50%;
     transform: translateX(-50%);
     width: 225px;
   }
 
   .rectengleSvg {
-    width: 325px;
+    width: 285px;
+  }
+
+  .sessionCard > div > div:nth-child(2) {
+    position: absolute;
   }
 
   .sessionCardChild > div > p {

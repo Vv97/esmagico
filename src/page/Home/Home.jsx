@@ -67,6 +67,10 @@ const Home = () => {
         </div>
 
         <p>= Your Own Live Session in {"<"}30 minutes</p>
+
+        <div className={styles.homeTextInnerButton}>
+          <button>30 Minutes Schedule Now</button>
+        </div>
       </div>
 
       <Waves />

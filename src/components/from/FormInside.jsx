@@ -14,19 +14,19 @@ const FormInside = () => {
       <form action="">
         <div className={styles.formInsideLabel}>
           <label htmlFor="">Name</label>
-          <input type="text" />
+          <input type="text" placeholder="Enter name" />
         </div>
         <div className={styles.formInsideLabel}>
           <label htmlFor="">Email</label>
-          <input type="text" />
+          <input type="text" placeholder="Enter email" />
         </div>
         <div className={styles.formInsideLabel}>
           <label htmlFor="">Mobile Number</label>
-          <input type="number" />
+          <input type="number" placeholder="Enter mobile number" />
         </div>
         <div className={styles.formInsideLabel}>
           <label htmlFor="">Organization</label>
-          <input type="text" />
+          <input type="text" placeholder="Enter name" />
         </div>
         <div className={styles.formInsideLabel}>
           <label htmlFor="">Select Date</label>
