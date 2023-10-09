@@ -59,13 +59,13 @@
 }
 
 .liveSessions > div > div > p {
-  width: 164px;
+  width: 141px;
   color: #2a2727;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 148%; /* 23.68px */
+  line-height: 148%;
 }
 
 @media screen and (max-width: 480px) {

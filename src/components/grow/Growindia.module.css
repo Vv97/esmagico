@@ -14,6 +14,10 @@
   /* left: 783px; */
 }
 
+.growTextBtn {
+  display: none;
+}
+
 .growText {
   position: absolute;
   width: 423px;
@@ -22,7 +26,7 @@
   left: 703px;
   z-index: 999;
   color: #000;
-  font-size: 52px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 68px;
   letter-spacing: 0em;
@@ -39,5 +43,27 @@
     font-style: normal;
     font-weight: 600;
     line-height: 148%;
+  }
+
+  .growTextBtn {
+    display: block;
+    width: 84px;
+    height: 22.569px;
+    border-radius: 32.378px;
+    background: #538dd7;
+    position: absolute;
+    top: 412px;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 9.311px;
+    font-style: normal;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 140.625%; /* 13.094px */
+    text-transform: uppercase;
+    left: 38px;
   }
 }

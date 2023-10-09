@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 148%; /* 47.36px */
-  margin: auto;
+  margin: 12px auto;
 }
 
 .trustedClients > div > p {
@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 480px) {
   .trustedClients {
-    top: 2800px;
+    top: 2770px;
   }
 
   .trustedClients > div > h1 {
@@ -55,6 +55,7 @@
     height: 51px;
     font-size: 12px;
     font-style: normal;
+    margin-bottom: 10px;
     font-weight: 400;
     line-height: 148%;
   }

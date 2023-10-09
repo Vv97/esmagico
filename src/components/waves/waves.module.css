@@ -56,7 +56,6 @@
     display: block;
     position: absolute;
     top: 210px;
-    /* overflow: hidden; */
   }
 
   .mwaves > svg {
@@ -65,12 +64,12 @@
 
   .mwaves > svg:nth-child(1) {
     top: 0;
+    left: 0;
     z-index: 3;
   }
 
   .mwaves > svg:nth-child(2) {
     top: 18px;
-    z-index: 2;
   }
 
   .mwaves > svg:nth-child(3) {

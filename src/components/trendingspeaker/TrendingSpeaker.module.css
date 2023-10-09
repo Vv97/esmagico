@@ -39,8 +39,13 @@
 .trendingSpeaker > div p {
   background-color: #538dd7;
   padding: 20px 12px;
-  text-align: center;
   color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 10.783px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130.4%;
 }
 
 @media screen and (max-width: 480px) {

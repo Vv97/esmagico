@@ -81,16 +81,16 @@
 
 .formCheckbox > p {
   color: #2a2727;
-  font-size: 1.25rem;
+  font-size: 14px;
+  text-align: center;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 148%;
 }
 
 .formCheckbox > div > div {
   border-radius: 50px;
   border: 1px solid #aeb7c3;
-  width: 193px;
   height: 31px;
   display: flex;
   align-items: center;
